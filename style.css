@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        
     background: rgba(242,242,242,1);
     background: -moz-linear-gradient(left, rgba(242,242,242,1) 0%, rgba(186,186,186,1) 100%);
@@ -29,4 +29,23 @@ body {
     -webkit-box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
     -moz-box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
     box-shadow: 3px 6px 16px -4px rgba(0,0,0,0.63);
+}
+.header {
+    position: absolute;
+    top: 180px;
+    left: 295px;
+}
+p {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.large {
+    font-size: 75px;
+    margin-top: 0;
+}
+.countdown-box {
+    
 }
